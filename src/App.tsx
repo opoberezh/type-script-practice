@@ -4,6 +4,8 @@ import Navbar from "@/scenes/Navbar/Navbar";
 import Home from "@/scenes/Home/Home";
 import BenefitsList from "@/scenes/Benefits/BenefitsList";
 import OurClassesList from "./scenes/OurClasses/OurClassesList";
+import ContactUs from "./scenes/ContactUs/ContactUs";
+import Footer from "./scenes/Footer";
 
 
 
@@ -36,6 +38,8 @@ function App() {
       <Home setSelectedPage={setSelectedPage}/>
       <BenefitsList setSelectedPage={setSelectedPage}/>
       <OurClassesList setSelectedPage={setSelectedPage}/>
+      <ContactUs setSelectedPage={setSelectedPage}/>
+      <Footer />
     </div>
   );
 }
