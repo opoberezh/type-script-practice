@@ -9,18 +9,22 @@ type Props = {
 };
 
 const ContactUs = ({ setSelectedPage }: Props) => {
-  const inputStyles = `mb-5 w-full rounded-lg bg-primary-300 px-5 py-3 placeholder-white`
+  const inputStyles = `mb-5 w-full rounded-lg bg-primary-300
+  px-5 py-3 placeholder-white`;
+
   const {
     register,
     trigger,
-    formState: {errors},
+    formState: { errors },
   } = useForm();
-  const onSubmit = async (e: any) => {
+
+  const onSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     const isValid = await trigger();
-    if (!isValid){
+    if (!isValid) {
       e.preventDefault();
     }
-  }
+  };
+
   return (
     <section id="contactus" className="mx-auto w-5/6 pt-24 pb-22">
       <motion.div
