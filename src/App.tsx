@@ -35,10 +35,10 @@ function App() {
         selectedPage={selectedPage}
         setSelectedPage={setSelectedPage}
       />
-      <Home setSelectedPage={setSelectedPage}/>
-      <BenefitsList setSelectedPage={setSelectedPage}/>
-      <OurClassesList setSelectedPage={setSelectedPage}/>
-      <ContactUs setSelectedPage={setSelectedPage}/>
+      <Home setSelectedPage={setSelectedPage} />
+      <BenefitsList setSelectedPage={setSelectedPage} />
+      <OurClassesList setSelectedPage={setSelectedPage} />
+      <ContactUs setSelectedPage={setSelectedPage} />
       <Footer />
     </div>
   );
