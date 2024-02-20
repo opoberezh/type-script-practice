@@ -18,7 +18,7 @@ const ContactUs = ({ setSelectedPage }: Props) => {
     formState: { errors },
   } = useForm();
 
-  const onSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
+  const onSubmit = async (e: any) => {
     const isValid = await trigger();
     if (!isValid) {
       e.preventDefault();
@@ -85,7 +85,6 @@ placeholder='EMAIL'
 )}
 <textarea
  className={inputStyles}
-type="text"
 placeholder='MESSAGE'
 rows={4}
 cols={50}
