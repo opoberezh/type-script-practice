@@ -6,12 +6,6 @@
 ![Home page](./src/assets/img/img2.png)
 ![Home page](./src/assets/img/img1.png)
 
- In the Application there are such fetches as:
-
-- responsive layout;
-- mobile menu;
-- anchor pages;
-- user Form;
 
 
 
