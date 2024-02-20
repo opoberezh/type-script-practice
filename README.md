@@ -1,30 +1,20 @@
-# React + TypeScript + Vite
+# Typescript React Fitness Application ![logo](./src/assets/Logo.png)
+![Home page](./src/assets/img/img7.png)
+![Home page](./src/assets/img/img6.png)
+![Home page](./src/assets/img/img5.png)
+![Home page](./src/assets/img/img4.png)
+![Home page](./src/assets/img/img2.png)
+![Home page](./src/assets/img/img1.png)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+ In the Application there are such fetches as:
 
-Currently, two official plugins are available:
+- responsive layout;
+- mobile menu;
+- anchor pages;
+- user Form;
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
 
-- Configure the top-level `parserOptions` property like this:
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
